@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+}
+.heading{
+    font-size:2.5em;
+    font-weight:bold;
+    color:green;
+    text-align:center;
+    font-family:"Times New Roman",Times,serif;
+}
+.player{
+    display:flex;
+    justify-content:center;
+    gap:10em;
+}
+.player1{
+    color:green;
+    text-align:center;
+    font-size:1.5em;
+    font-family:"Times New Roman",Times,serif;
+}
+.text1{
+    margin-bottom:15px;
+}
+.image1{
+    size:100%;
+}
+.player2{
+    color:green;
+    text-align:center;
+    font-size:1.5em;
+    font-family:"Times New Roman",Times,serif;
+    margin-bottom:5px;
+}
+.image2{
+    size:100%;
+}
+.text2{
+    margin-bottom:15px;
+}
+#roll_dice{
+    width:400px;
+    margin-bottom:10px;
+    background-color:green;
+    color:black;
+    font-family:"Times New Roman",Times,serif;
+    text-align:center;
+    font-weight:bold;
+    font-size:3em;
+    border-radius:15px;
+    border:3px solid white;
+    transition-duration:0.5s;
+    box-shadow:0 0 100px 0 rgba(0,255,0);
+}
+.BTN{
+    margin-top:30px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+#roll_dice:hover{
+    background-color:black;
+    color:green;
+}
+#reset{
+    width:100px;
+    font-weight:bold;
+    background-color:green;
+    color:black;
+    font-family:"Times New Roman",Times,serif;
+    text-align:center;
+    justify-content:center;
+}
+#reset:hover{
+    background-color:black;
+    color:green;
+}
